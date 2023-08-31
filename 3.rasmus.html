@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United</title>
+    <link rel="shortcut icon" href="/assets/images/mu logo.jpg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        .title {
+            padding: 50px 50px;
+        }
+
+        .title-container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .character {
+            flex: 1;
+            text-align: center;
+            margin: auto;
+        }
+
+        .character-img {
+            width: 500px;
+            border-radius: 3%;
+            transition: 2s;
+            cursor: pointer;
+        }
+
+        .character-img:hover {
+            border-radius: 100%;
+        }
+
+        .big-heading {
+            flex: 1;
+            margin-left: 30px;
+            margin: auto;
+        }
+
+        .big-heading h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .big-heading p {
+            font-size: 1em;
+            margin-bottom: 50px;
+        }
+
+        .explore-button {
+            background-color: yellowgreen;
+            border: none;
+            border-radius: 12px;
+            font-size: 1em;
+            font-weight: bold;
+            margin-right: 20px;
+            padding: 20px 50px;
+        }
+
+        .explore-button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .explore-button:hover {
+            background-color: red;
+        }
+
+        .explore-button a:hover {
+            color: aliceblue;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .big-heading {
+                margin-left: 30px;
+            }
+
+            @media screen and (max-width: 912px) {
+                .title-container {
+                    flex-direction: column;
+                }
+
+                .big-heading {
+                    margin: 0;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        p {
+            color: black;
+        }
+
+        hr {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section class="title">
+            <div class="title-container">
+                <div class="character">
+                    <img src="assets/images/rasmus.jpg" alt="" class="character-img">
+                </div>
+                <div class="big-heading">
+                    <h1>Bruno Fernandes</h1>
+                    <ul>
+                        <li>FUll Name: Rasmus Winther Højlund</li>
+                        <li>date of birth: 4 February 2003 (age 20) </li>
+                        <li>Place of birth: Copenhagen, Denmark</li>
+                        <li>Height: 191 cm (6 ft 3 in) </li>
+                        <li>Posision: Striker/forward</li>
+                    </ul>
+                    <p>Rasmus Winther Højlund adalah seorang pemain sepak bola profesional asal Denmark yang bermain
+                        sebagai penyerang untuk klub Liga Utama Inggris Manchester United dan tim nasional Denmark.
+
+                        Højlund memulai karier profesional dengan klub Copenhagen pada 2020. Ia kemudian bergabung ke
+                        klub Bundesliga Austria Sturm Graz pada Januari 2022. Pada Agustus 2022, ia bergabung ke klub
+                        Serie A Atalanta pada bulan Agustus, ia kemudian bergabung dengan klub Premier League Manchester
+                        United pada Agustus 2023.
+
+                        Højlund tampil untuk tim nasional junior Denmark mulai kelompok umur U-16 hingga U-21. Ia tampil
+                        perdana untuk timnas senior Denmark pada September 2022.</p>
+                    <button class="explore-button">
+                        <a href="!index.html">Back to Mancester United web</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <p>Mancester United &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

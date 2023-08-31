@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United</title>
+    <link rel="shortcut icon" href="/assets/images/mu logo.jpg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .title {
+            padding: 50px 50px;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        .title-container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .character {
+            flex: 1;
+            text-align: center;
+            margin: auto;
+        }
+
+        .character-img {
+            width: 500px;
+            border-radius: 3%;
+            transition: 2s;
+            cursor: pointer;
+        }
+
+        .character-img:hover {
+            border-radius: 100%;
+        }
+
+        .big-heading {
+            flex: 1;
+            margin-left: 30px;
+            margin: auto;
+        }
+
+        .big-heading h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .big-heading p {
+            font-size: 1em;
+            margin-bottom: 50px;
+        }
+
+        .explore-button {
+            background-color: yellowgreen;
+            border: none;
+            border-radius: 12px;
+            font-size: 1em;
+            font-weight: bold;
+            margin-right: 20px;
+            padding: 20px 50px;
+        }
+
+        .explore-button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .explore-button:hover {
+            background-color: red;
+        }
+
+        .explore-button a:hover {
+            color: aliceblue;
+        }
+
+        @media screen and (max-width: 1024px) {
+            .big-heading {
+                margin-left: 30px;
+            }
+
+            @media screen and (max-width: 912px) {
+                .title-container {
+                    flex-direction: column;
+                }
+
+                .big-heading {
+                    margin: 0;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        footer {
+            background-color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        p {
+            color: black;
+        }
+
+        hr {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <section class="title">
+            <div class="title-container">
+                <div class="character">
+                    <img src="assets/images/ETH.jpg" alt="" class="character-img">
+                </div>
+                <div class="big-heading">
+                    <h1>Erik Ten Hag</h1>
+                    <ul>
+                        <li>Name: Erik ten Hag</li>
+                        <li>date of birth: 2 Februari 1970 (age 53) </li>
+                        <li>Place of birth: Haaksbergen, Netherlands</li>
+                        <li>Height: 185 cm (6 ft 1 in) </li>
+                    </ul>
+                    <p>Erik ten Hag adalah seorang mantan pemain sepak bola yang saat ini menjadi manajer. Ia melatih
+                        Manchester United sejak Mei 2022. Dia naik daun sebagai manajer Ajax yang menjuarai tiga edisi
+                        Liga Belanda dan mencapai semifinal Liga Champions UEFA pada tahun 2019.
+                        Saat ini Erik Ten Hag sedang menjadi pelatih Mancester United sejak april 2022 musim kemarin dan
+                        Ten Hag pun sukses membawa MU finis di 3 besar liga inggris dan membawa MU kembali ke zona Liga
+                        Champions UEFA.</p>
+                    <button class="explore-button">
+                        <a href="!index.html">Back to Mancester United web</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <p>Mancester United &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
