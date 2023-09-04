@@ -246,7 +246,7 @@ box-shadow:0 0 15px gray;
 }
 /* ASIDE */
 aside{
-  background: white;
+  background: red;
   justify-content: center;
   display: flex;
 }
