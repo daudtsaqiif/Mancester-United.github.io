@@ -96,6 +96,7 @@ margin: 0 20px;
   }
 }
 
+
 /* Title */
 .title{
   padding: 50px 50px;
@@ -130,10 +131,13 @@ cursor: pointer;
   font-weight: 700;
   margin-bottom: 20px;
   color: red;
+  text-shadow: 4px 4px 8px red, 0 0 5px yellowgreen;
 }
 .big-heading p{
   font-size: 1em;
   margin-bottom: 50px;
+  text-align: justify;
+  text-indent: 19px;
 }
 .explore-button{
   background-color: yellowgreen;
@@ -172,6 +176,15 @@ background-color: red;
         width: 300px;
       }
     }
+}
+@media screen and (max-width: 325px) {
+  .character-img{
+    width: 250px;
+  }
+  .logo{
+    width: 20px;
+    font-size: 30px;
+  }
 }
 }
 /*Collection */
